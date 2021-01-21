@@ -8,7 +8,7 @@ Small scripts or conifgs to make life easier
 ### Usage
   - call them in the following way
   - `python3 /path/to/scihub.py -d "The url of the pdf" -o "output directory"`
-  - Then call the name.py to scrape the title from the pdf and rename the file woth it.
+  - Then call the name.py to scrape the title from the pdf and rename the file with it.
   - `python3 /path/to/name.py -o "ouput directory"`
 ### Known Issues
   - Dont have other pdf's in the present folder when you call name.py. This may rename it unnecessarily.
