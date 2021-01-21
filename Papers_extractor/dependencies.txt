@@ -1,0 +1,6 @@
+pdfrw
+argparse
+requests
+urllib3
+bs4
+retrying
