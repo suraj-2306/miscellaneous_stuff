@@ -12,4 +12,24 @@ Small scripts or conifgs to make life easier
 ### Known Issues
   - Dont have other pdf's in the present folder when you call name.py. This may rename it unnecessarily.
   - Not all websites work.
+
+
+## 2. Xilinx_ISIM_terminal
+  - This is to access xilninx toolchain and build a simulation, all from the terminal
+  - The file structure will be something like [this](https://pasteboard.co/JKI1HDe.png)
+  - All the sources, i.e all user defined files such as all verilog files and cmd file for ISIM simulation go to the sources directory.
+  - A custom makefile calls the recipe and creates a folder called isim.
+### General Guidelines
+  - Always keep the prj folder updated of all the files created. Follow a bottom up approach while ordering the verilog files in the prj file.
+  - Create a normal project from ise and try matching the files in case of errors. Update the makefile if required.
+  - The top is usually test_bench for all the modules that follow. Make sure that this has the same name as the prj file.
+### Configuration (Important)
+  - Change the path, in top.prj as to fetch the `glbl.v` correctly in the xilinx installation folders.
+  - Source the xilinx configitation (the settings64.sh or settings32.sh), else you might encounter errors.
+### Usage
+  - Navigate to the top of the directory of the project.
+  - Call the makefile. For example `make -f xilinx.makefile CUSTOM_TOP=top`.
+  - As already mentioned, the "top" file which is the project filename as well as the top testbench file name. So if you would wanna change the name of top file, remember to change the prj file and the `CUSTOM_TOP=some_cutom_name`, while calling the makefile.
+  - Call `make -f xilinx.makefile CUSTOM_TOP=top -s simulate` for simulating the modules. Check out the makefile for more options.
+
  
