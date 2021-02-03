@@ -32,4 +32,10 @@ Small scripts or conifgs to make life easier
   - As already mentioned, the "top" file which is the project filename as well as the top testbench file name. So if you would wanna change the name of top file, remember to change the prj file and the `CUSTOM_TOP=some_cutom_name`, while calling the makefile.
   - Call `make -f xilinx.makefile CUSTOM_TOP=top -s simulate` for simulating the modules. Check out the makefile for more options.
 
+## 3. Kite + youcompleteme + vim 
+  - This is for using kite only for python and using ycm for other extension files, Add this into your vimrc
+  - `if(expand('%:t')!='py') let g:ycm_auto_trigger=1 endif`
+
+
+`
  
