@@ -40,3 +40,7 @@ Small scripts or conifgs to make life easier
   - This can be used to scrape all the files in [this page](https://sanjayvidhyadharan.in/Downloads/Microprocessors/)
   - Navigate to a directory and put this in the terminal. `wget --recursive --html-extension --page-requisites --convert-link -np --reject html,robots.txt -c -N -X _autoindex -X robots.txt https://sanjayvidhyadharan.in/Downloads/Microprocessors/`
   - This updates the existing files. So you need to run this whenever there's a new file uploaded. 
+
+## 5. Tool for internet Usage in linux
+  - Add `alias ius="sudo vnstat --oneline | cut -d ';' -f 11"` to the bash_aliases. 
+  - This will poll for the usage of internet through Wifi and Ethernet, and give you the usage for the current month in interval of 5 minutes.
