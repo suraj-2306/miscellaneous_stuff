@@ -42,7 +42,7 @@ Small scripts or conifgs to make life easier
   - This updates the existing files. So you need to run this whenever there's a new file uploaded. 
   - Add this to the bash_alias file, and map it to an alias.
 
-## 5. Tool for internet Usage in linux
+## 5. Tool for monitoring internet Usage in linux
   - Add `alias ius="sudo vnstat --oneline | cut -d ';' -f 11"` to the bash_aliases. 
   - Refer [this](https://www.tecmint.com/install-vnstat-and-vnstati-to-monitor-linux-network-traffic/) for installation of vnstat
   - This will poll for the usage of internet through Wifi and Ethernet, and give you the usage for the current month in interval of 5 minutes.
