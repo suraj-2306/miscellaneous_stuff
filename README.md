@@ -36,6 +36,6 @@ Small scripts or conifgs to make life easier
   - This is for using kite only for python and using ycm for other extension files, Add this into your vimrc
   - `if(expand('%:t')!='py') let g:ycm_auto_trigger=1 endif`
 
-
-`
- 
+## 4. Scraping Lecture slides from sanjayvidhyadharan.in/Downloads/Microprocessors`
+  -  Scrape it using `wget --recursive --html-extension --page-requisites --convert-link -np --reject html,robots.txt -c -N -X _autoindex -X robots.txt https://sanjayvidhyadharan.in/Downloads/Microprocessors/`
+  - This updates the existing files. So you need to run this whenever there's a new file uploaded. 
