@@ -46,3 +46,6 @@ Small scripts or conifgs to make life easier
   - Add `alias ius="sudo vnstat --oneline | cut -d ';' -f 11"` to the bash_aliases. 
   - Refer [this](https://www.tecmint.com/install-vnstat-and-vnstati-to-monitor-linux-network-traffic/) for installation of vnstat
   - This will poll for the usage of internet through Wifi and Ethernet, and give you the usage for the current month in interval of 5 minutes.
+## 6. Offline conversion of files
+  - Libre office has a cli tool to convert files.
+  - `libreoffice --headless --invisible --convert-to convert_to_format file_name.extension`. add it to your ~/.bash_aliases
