@@ -50,7 +50,7 @@ Small scripts or conifgs to make life easier
   - Libre office has a cli tool to convert files.
   - `libreoffice --headless --invisible --convert-to convert_to_format file_name.extension`. add it to your ~/.bash_aliases
 ## 7. Drive_video_downloader
-  - It used 2 cookies and requires the video id as parameters.
+  - It uses 2 cookies and the video id as parameters.
 ### Usage 
   - `python3 video_downloader --file_id XXX --drive_id YYY --drive_stream ZZZ`
   -  `XXX` is the field in `https://drive.google.com/file/d/XXX/view`
