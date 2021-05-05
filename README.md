@@ -60,6 +60,7 @@ Small scripts or conifgs to make life easier
   - A bot to send you a mail if there is a vaccine available in your district for 18+ group.
   - Add it as a daily cron job in your pc.
 ### Usage
+  - The script to be run is scraper.py in cowin_data_logger folder
   - Steps to find a app password from your gmail account.
     - go to manage my [google account](https://myaccount.google.com/security)
     - Under "Signing in to Google" confirm that "2-Step Verification" is "On" for the account.
