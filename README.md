@@ -56,3 +56,16 @@ Small scripts or conifgs to make life easier
   -  `XXX` is the field in `https://drive.google.com/file/d/XXX/view`
   -  `YYY` is the ` __Secure-3PSID` cookie
   -  `ZZZ` is the ` DRIVE_STREAM` cookie
+## 8.Cowin_data_logger
+  - A bot to send you a mail if there is a vaccine available in your district for 18+ group.
+  - Add it as a daily cron job in your pc.
+### Usage
+  - Steps to find a app password from your gmail account.
+    - go to manage my [google account](https://myaccount.google.com/security)
+    - Under "Signing in to Google" confirm that "2-Step Verification" is "On" for the account.
+    - Also under "Signing in to Google" Select "App passwords".
+    - Select the app as "Mail" and the device as "Other (Custom name)" and name it.
+    - Copy the app password, it will be in a yellow box and looks like: "XXXX XXXX XXXX XXXX"
+  - Remember to find the district_id of your city and update it in the file
+
+ 
