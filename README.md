@@ -82,5 +82,5 @@ Small scripts or conifgs to make life easier
     - Similarly playlist ID of the link "https://www.youtube.com/watch?v=8ZYXks8pySE&list=PL8BC75818022EC4CA&index=1" is also PL8BC75818022EC4CA
   - Other parameters are self explanatory
     - If the track_title is not specified, it defaults to playlist_title
-  -Run the playlist.py 
+  - Run the playlist.py 
  
