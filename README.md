@@ -71,11 +71,11 @@ Small scripts or conifgs to make life easier
 ## 9.youtube_playlist_script
   - It can be used to make a copy of your favourite playlist (configuration copy and not download the videos) from youtube. You can open that on your favourite media player without ads or distraction :)  
   - Desc: A script to make a offline playlist of youtube playlists. 
-  - It creates a .xspf as a playlist file, compatible with most media players.
+  - It creates a .xspf as a playlist file, it is compatible with most media players.
 ### Prereq
   - xspf parser library : `pip3 install xspf-lib`
   - command line javascript utitly : `sudo apt-get install js`
-  - youtube-dl : `pip3 isntall youtube-dl` or `sudo apt-get install youtube-dl`
+  - youtube-dl : `pip3 install youtube-dl` or `sudo apt-get install youtube-dl`
 ### Usage
   - Use the config.yaml file to fill the details of your playlist.
     - For example a playlist ID of the link "https://www.youtube.com/playlist?list=PL8BC75818022EC4CA" is PL8BC75818022EC4CA
