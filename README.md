@@ -68,5 +68,19 @@ Small scripts or conifgs to make life easier
     - Select the app as "Mail" and the device as "Other (Custom name)" and name it.
     - Copy the app password, it will be in a yellow box and looks like: "XXXX XXXX XXXX XXXX"
   - Remember to find the district_id of your city and update it in the file
-
+## 9.youtube_playlist_script
+  - It can be used to make a copy of your favourite playlist (configuration copy and not download the videos) from youtube. You can open that on your favourite media player without ads or distraction :)  
+  - Desc: A script to make a offline playlist of youtube playlists. 
+  - It creates a .xspf as a playlist file, compatible with most media players.
+### Prereq
+  - xspf parser library : `pip3 install xspf-lib`
+  - command line javascript utitly : `sudo apt-get install js`
+  - youtube-dl : `pip3 isntall youtube-dl` or `sudo pat-get install youtube-dl`
+### Usage
+  - Use the config.yaml file to fill the details of your playlist.
+    - For example a playlist ID of the link "https://www.youtube.com/playlist?list=PL8BC75818022EC4CA" is PL8BC75818022EC4CA
+    - Similarly playlist ID of the link "https://www.youtube.com/watch?v=8ZYXks8pySE&list=PL8BC75818022EC4CA&index=1" is also PL8BC75818022EC4CA
+  - Other parameters are self explanatory
+    - If the track_title is not specified, it defaults to playlist_title
+  -Run the playlist.py 
  
